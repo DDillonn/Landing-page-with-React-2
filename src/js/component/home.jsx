@@ -6,10 +6,11 @@ import Card from "./Card";
 const Home = () => {
 	return (
 		<div>
-			hi
 			<NavBar />
-			<Jumbotron />
-			<Card />
+			<div class="container fluid">
+				<Jumbotron />
+				<Card />
+			</div>
 		</div>
 	);
 };
